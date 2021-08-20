@@ -1,0 +1,26 @@
+.info {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+}
+.main {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  font-family: algerian;
+  list-style-position: inside;
+}
+.setDiv {
+  block-size: 500px;
+  text-align: center;
+  padding-top: 20px;
+}
+h1{
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    font-family: algerian;
+    list-style-position: inside;  
+}
+
