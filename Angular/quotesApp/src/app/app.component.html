@@ -1,0 +1,37 @@
+<h1 class="title">MY QUOTES</h1>
+<br /><br />
+<section>
+  <div>
+      <h1 class="quote">{{ allQuotes[count].text }}</h1>
+      <p class="quote">
+        {{ allQuotes[count].author }}
+      </p>
+      <hr class="my-4" />
+    </div>
+</section>
+
+<div class="btn">
+  <div>
+  <button
+    class="btn-secondary rounded-pill"
+    (click)="previousQuote()"
+    [disabled]="isPreDisabled"
+  >
+  &nbsp;Previous&nbsp;
+  </button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="btn-info rounded-pill" (click)="nextQuote()">
+     &nbsp;Next&nbsp;
+  </button>
+</div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+<section class="mt-lg-5">
+  <div class="container">
+    <footer class="text-center">
+      <p>Created by Yash Shinde <span> &#174; </span></p>
+    </footer>
+  </div>
+</section>
+
